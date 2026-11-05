@@ -62,7 +62,7 @@ fake-news-classifier/
     └── fake_news_classification.ipynb
 ```
 
-The model filename in this README is the expected deployment filename. If your saved model has a different name or location, update `MODEL_PATH` in `app.py` accordingly.
+The model filename in this README is the expected deployment filename (`fake_news_model.pkl`). `app.py` automatically resolves both `fake_news_model.pkl` in the repository root and `model/news_classifier_model.pkl`.
 
 ## Run locally
 
