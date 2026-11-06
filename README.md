@@ -4,6 +4,8 @@ A machine-learning project that classifies a news article as **Fake** or **Real*
 
 The project uses TF-IDF text features and compares multiple classification algorithms. The current best-performing model is a Linear Support Vector Machine (Linear SVM).
 
+Live at https://news-credibility-classifier-sarvesh.streamlit.app/
+
 > This is a text-classification model trained on a particular dataset. It does not verify claims against reliable sources and should not be treated as a fact-checking system. Its predictions may reflect dataset-specific writing, publisher, formatting, or topic patterns.
 
 ## Model performance
